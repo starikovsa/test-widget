@@ -37,5 +37,8 @@
     "stylelint-config-recommended": "^2.2.0",
     "stylelint-order": "^3.0.0",
     "stylelint-scss": "^3.6.1"
+  },
+  "dependencies": {
+    "axios": "^0.19.0"
   }
 }
