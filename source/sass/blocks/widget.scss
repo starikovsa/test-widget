@@ -1,8 +1,11 @@
 .widget {
   width: 300px;
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
+  position: fixed;
+  top: 20%;
+  left: 35%;
   font-family: "RotondaC", "Arial", sans-serif;
   font-size: 14px;
+  margin: 0 auto;
 }
