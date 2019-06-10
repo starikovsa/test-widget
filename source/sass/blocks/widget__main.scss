@@ -1,0 +1,41 @@
+.widget__main {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+}
+
+.widget__name-group {
+  position: relative;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+.widget__name {
+  font-size: 18px;
+  line-height: 18px;
+  margin: 0;
+  padding: 0;
+  padding-top: 15px;
+  color: #336699;
+}
+
+.widget__discount {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-family: "ALSSchlangesans-Black", "Arial", sans-serif;
+  font-size: 25px;
+  line-height: 28px;
+  color: #f1d02f;
+  background-color: #336699;
+  margin: 0;
+  padding: 10px 20px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.widget__text {
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0;
+}
