@@ -1,6 +1,7 @@
 .widget__main {
   display: flex;
   flex-direction: column;
+  margin-bottom: 15px;
   padding-left: 15px;
 }
 
@@ -75,4 +76,24 @@
 
 .widget__link-vk {
   border: solid 2px #336699;
+}
+
+.widget__input,
+.widget__textform {
+  width: 242px;
+  font-size: 14px;
+  line-height: 18px;
+  border: solid 1px #336699;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 8px 11px;
+}
+
+.widget__button--send {
+  font-size: 14px;
+  line-height: 18px;
+  background-color: #336699;
+  color: #ffffff;
+  border-radius: 23.5px;
+  padding: 15px 99px;
 }
